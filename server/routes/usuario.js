@@ -94,8 +94,7 @@ app.put('/usuario/:id', [verificaToken, verificaAdmin_Role], (req, res) => {
 
         res.json({
             ok: true,
-            usuario: usuarioDB,
-
+            usuario: usuarioDB
         });
     });
 
